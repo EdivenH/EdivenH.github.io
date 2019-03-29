@@ -638,30 +638,24 @@
   
 
   
-  
-  <script id="dsq-count-scr" src="https://blog.disqus.com/count.js" async></script>
 
+
+  
+    
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css">
+
+
+
+<script src="//cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js"></script>
 
 <script>
-  var disqus_config = function() {
-    this.page.url = "http://taraxacum.cc/categories/index.html";
-    this.page.identifier = "categories/index.html";
-    this.page.title = 'categories';
-    };
-  function loadComments() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://blog.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', '' + +new Date());
-    (d.head || d.body).appendChild(s);
-  }
-  
-    loadComments();
-  
+  var dsqjs = new DisqusJS({
+    api: '' || 'https://disqus.com/api/',
+    apikey: 'k111IY8CLFqFeADfdF9I5vsRh583DrVCqVlB3B6KCV10265hV97y16hsPbWRMT5V',
+    shortname: 'ediven-blog'
+  });
 </script>
-
-
-
-
 
   
 
